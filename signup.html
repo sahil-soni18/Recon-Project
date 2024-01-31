@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Sign Up - Community Bulletin Board</title>
+  <style>
+    body {
+      padding-top: 56px; /* Adjust according to your navbar height */
+    }
+
+    .form-container {
+      max-width: 400px;
+      margin: auto;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Signup Form -->
+  <div class="container form-container">
+    <h2>Sign Up</h2>
+    <form>
+      <div class="form-group">
+        <label for="fullname">Full Name</label>
+        <input type="text" class="form-control" id="fullname" placeholder="Enter your full name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" class="form-control" id="username" placeholder="Choose a username">
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Choose a password">
+      </div>
+      <div class="form-group">
+        <label for="userType">Are you a job seeker or a job provider?</label>
+        <select class="form-control" id="userType">
+          <option value="jobSeeker">Job Seeker</option>
+          <option value="jobProvider">Job Provider</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign Up</button>
+    </form>
+
+    <p class="mt-3">Already have an account? <a href="login.html">Login here</a></p>
+  </div>
+
+  <!-- Bootstrap JS and Popper.js (required for Bootstrap components) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

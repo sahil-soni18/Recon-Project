@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Profile - Community Bulletin Board</title>
+  <style>
+    body {
+      padding-top: 56px; /* Adjust according to your navbar height */
+    }
+
+    .profile-container {
+      max-width: 400px;
+      margin: auto;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Bulletin Board</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="Reco.html">Job/Internship Opportunities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="recoNews.html">News</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="About.html">About Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Profile Content -->
+  <div class="container profile-container">
+    <h2>My Profile</h2>
+    <form id="profileForm">
+      <div class="form-group">
+        <label for="fullname">Full Name</label>
+        <input type="text" class="form-control" id="fullname" placeholder="Enter your full name" value="John Doe">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" value="john.doe@example.com">
+      </div>
+      <button type="submit" class="btn btn-primary">Save Changes</button>
+    </form>
+  </div>
+
+  <!-- Bootstrap JS and Popper.js (required for Bootstrap components) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
